@@ -1,0 +1,186 @@
+object frmMain: TfrmMain
+  Left = 645
+  Height = 489
+  Top = 99
+  Width = 670
+  Caption = 'frmMain'
+  ClientHeight = 489
+  ClientWidth = 670
+  OnCreate = FormCreate
+  LCLVersion = '2.2.4.0'
+  object btnAdd: TButton
+    Left = 400
+    Height = 25
+    Top = 232
+    Width = 75
+    Caption = 'Add'
+    OnClick = btnAddClick
+    TabOrder = 0
+  end
+  object btnDelete: TButton
+    Left = 488
+    Height = 25
+    Top = 232
+    Width = 75
+    Caption = 'Delete'
+    OnClick = btnDeleteClick
+    TabOrder = 1
+  end
+  object btnCalculate: TButton
+    Left = 576
+    Height = 25
+    Top = 232
+    Width = 75
+    Caption = 'Calculate'
+    TabOrder = 2
+  end
+  object edtNoOrder: TEdit
+    Left = 112
+    Height = 23
+    Top = 16
+    Width = 88
+    TabOrder = 3
+  end
+  object edtNama: TEdit
+    Left = 112
+    Height = 23
+    Top = 48
+    Width = 224
+    TabOrder = 4
+  end
+  object edtAlamat: TEdit
+    Left = 112
+    Height = 23
+    Top = 80
+    Width = 224
+    TabOrder = 5
+  end
+  object edtJumlahKilogram: TEdit
+    Left = 112
+    Height = 23
+    Top = 144
+    Width = 88
+    TabOrder = 6
+  end
+  object lstLaundry: TListBox
+    Left = 10
+    Height = 208
+    Top = 272
+    Width = 646
+    ItemHeight = 0
+    TabOrder = 7
+  end
+  object lblNoOrder: TLabel
+    Left = 8
+    Height = 18
+    Top = 16
+    Width = 64
+    Caption = 'No Order :'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Calibri'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblNama: TLabel
+    Left = 10
+    Height = 18
+    Top = 48
+    Width = 43
+    Caption = 'Nama :'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Calibri'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblAlamat: TLabel
+    Left = 8
+    Height = 18
+    Top = 80
+    Width = 53
+    Caption = 'ALamat :'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Calibri'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblJenis: TLabel
+    Left = 10
+    Height = 18
+    Top = 112
+    Width = 38
+    Caption = 'Jenis :'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Calibri'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblJumlahKilogram: TLabel
+    Left = 8
+    Height = 18
+    Top = 144
+    Width = 75
+    Caption = 'Jumlah /Kg :'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Calibri'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblharga: TLabel
+    Left = 9
+    Height = 18
+    Top = 176
+    Width = 42
+    Caption = 'Harga :'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Calibri'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblTotalHarga: TLabel
+    Left = 10
+    Height = 18
+    Top = 208
+    Width = 75
+    Caption = 'Total Harga :'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Calibri'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object cmbJenisLaundry: TComboBox
+    Left = 112
+    Height = 23
+    Top = 112
+    Width = 176
+    ItemHeight = 15
+    TabOrder = 8
+  end
+end
